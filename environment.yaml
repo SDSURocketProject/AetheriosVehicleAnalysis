@@ -1,0 +1,21 @@
+name: aetherios_vehicle_analysis-env
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pint
+  - scipy
+  - fluids
+  - cantera
+  - pandas
+  - pip
+  - pip:
+      - rocketpy
+      - jupyter-book
+
+
+# run the following to create: 
+#   conda env create -f environment.yaml
+# run the following to activate: 
+#   conda activate aetherios_vehicle_analysis-env
