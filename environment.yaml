@@ -10,6 +10,7 @@ dependencies:
   - cantera
   - pandas
   - pip
+  - CoolProp
   - pip:
       - rocketpy
       - jupyter-book
